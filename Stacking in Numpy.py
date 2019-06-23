@@ -15,7 +15,7 @@ print "Horizontal Stacking\n", np.hstack((arr1,arr2))
 
 # Column Stacking
 
-column_array_to_stack = [7,8]
+column_array_to_stack = np.array([7,8]) # or use directly [7,8]
 print "Column Stacked output:\n", np.column_stack((arr1, column_array_to_stack))
 
 # Concatenation method
